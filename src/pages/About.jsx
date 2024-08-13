@@ -1,9 +1,12 @@
 import React from "react"
-import aboutImg from "../components/assets/images/about.jpg"
+import aboutImg from "../components/assets/images/abt.jpg"
 import aboutImgBanner from "../components/assets/images/about-banner.jpg"
 import imgs from "../components/assets/images/join1.png"
-import { FaBookDead } from "react-icons/fa"
+import { IoBookOutline } from "react-icons/io5";
+import { FiMonitor } from "react-icons/fi";
 import { AiOutlineCheck } from "react-icons/ai"
+import { CiDesktopMouse2 } from "react-icons/ci";
+import { SlBadge } from "react-icons/sl";
 
 export const About = () => {
   return (
@@ -15,10 +18,10 @@ export const About = () => {
             <span className='text-sm mt-2 block'>you don't have to struggle alone, you've got our assistance and help.</span>
           </div>
           <div className='grid grid-cols-4 gap-5 mt-5 md:grid-cols-2'>
-            <AboutCard color='bg-[#2D69F0]' icon={<FaBookDead size={50} />} title='4,000 Online courses' desc="You don't have to struggle alone, you've " />
-            <AboutCard color='bg-[#DD246E]' icon={<FaBookDead size={50} />} title='4,000 Online courses' desc="You don't have to struggle alone, you've " />
-            <AboutCard color='bg-[#8007E6]' icon={<FaBookDead size={50} />} title='4,000 Online courses' desc="You don't have to struggle alone, you've " />
-            <AboutCard color='bg-[#0CAE74]' icon={<FaBookDead size={50} />} title='4,000 Online courses' desc="You don't have to struggle alone, you've " />
+            <AboutCard color='bg-[#2D69F0]' icon={<IoBookOutline  size={50} />} title='4,000 Online courses' desc="You don't have to struggle alone, you've " />
+            <AboutCard color='bg-[#DD246E]' icon={<FiMonitor  size={50} />} title='4,000 Online courses' desc="You don't have to struggle alone, you've " />
+            <AboutCard color='bg-[#8007E6]' icon={<CiDesktopMouse2  size={50} />} title='4,000 Online courses' desc="You don't have to struggle alone, you've " />
+            <AboutCard color='bg-[#0CAE74]' icon={<SlBadge  size={50} />} title='4,000 Online courses' desc="You don't have to struggle alone, you've " />
           </div>
         </div>
       </section>

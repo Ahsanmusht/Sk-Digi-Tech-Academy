@@ -37,7 +37,7 @@ function App() {
             }
           />
           <Route
-            path='/instructor'
+            path='/team'
             element={
               <Layout>
                 <Instructor />

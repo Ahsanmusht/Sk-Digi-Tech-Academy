@@ -31,10 +31,10 @@ export const HomeContent = () => {
           <div className='flex items-center justify-center md:flex-col'>
             <div className='left w-1/2 text-black md:w-full'>
               <h1 className='text-4xl leading-tight text-black font-semibold'>
-                Launch your <br /> Own online learning <br /> Platform
+              Unlock Your Future with Cutting-Edge Development Skills
               </h1>
-              <h3 className='text-lg mt-3'>Unlimited access to all 60+ instructors.</h3>
-              <span className='text-[14px]'>2 passes (with access to all classes) for $240</span>
+              <h3 className='text-lg mt-3'>Enjoy unrestricted access to our entire team of over 10+ experts.</h3>
+              <span className='text-[14px]'>Learn from industry professionals who bring their real-world experience directly to you.</span>
 
               <div className='relative text-gray-600 focus-within:text-gray-400 mt-5'>
                 <input type='search' className='py-3 text-sm  bg-white rounded-md pl-10 focus:outline-none ' placeholder='Search...' autocomplete='off' />
