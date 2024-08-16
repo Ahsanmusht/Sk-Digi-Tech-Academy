@@ -63,7 +63,7 @@ export const HomeContent = () => {
                     <span className='text-[12px]'>Your admission completed</span>
                   </div>
                 </button>
-                <button className='bg-white shadow-md absolute bottom-32 left-48 z-30 p-2 flex items-center rounded-md pr-8'>
+                <button className='bg-white shadow-md absolute bottom-32 left-48 z-30 p-2 flex items-center rounded-md pr-8 md:left-[-2rem] bottom-12'>
                   <div className='icon w-10 h-10 text-white rounded-full flex items-center justify-center bg-blue-400'>
                     <FaGraduationCap size={25} />
                   </div>

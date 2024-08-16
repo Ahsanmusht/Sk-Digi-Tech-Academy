@@ -13,8 +13,8 @@ export const Header = () => {
         <div className='container flex justify-between items-center'>
           <div className='logo flex items-center gap-6'>
             {/* <img src={LogoImg} alt='logo' className='h-5' /> */}
-            <h4>Sk Digi Tech</h4>
-            <div className='category flex items-center text-sm gap-3'>
+            <h4 className='h-5 md:text-sm'>Sk Digi Tech</h4>
+            <div className='category flex items-center text-sm gap-3 md:hidden'>
               <HiViewGrid size={20} />
               <span>category</span>
             </div>
@@ -31,7 +31,7 @@ export const Header = () => {
             </ul>
           </nav>
           <div className='account flex items-center gap-5'>
-            <button>
+            <button className="md:hidden">
               <BiShoppingBag size={25} />
             </button>
             <button>Login</button>{" "}

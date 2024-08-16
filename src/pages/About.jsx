@@ -17,7 +17,7 @@ export const About = () => {
             <h1 className='text-3xl font-semibold text-black'>Why An Scholercity Out Of The Ordinary</h1>
             <span className='text-sm mt-2 block'>you don't have to struggle alone, you've got our assistance and help.</span>
           </div>
-          <div className='grid grid-cols-4 gap-5 mt-5 md:grid-cols-2'>
+          <div className='grid grid-cols-4 gap-5 mt-5 md:grid-cols-1'>
             <AboutCard color='bg-[#2D69F0]' icon={<IoBookOutline  size={50} />} title='4,000 Online courses' desc="You don't have to struggle alone, you've " />
             <AboutCard color='bg-[#DD246E]' icon={<FiMonitor  size={50} />} title='4,000 Online courses' desc="You don't have to struggle alone, you've " />
             <AboutCard color='bg-[#8007E6]' icon={<CiDesktopMouse2  size={50} />} title='4,000 Online courses' desc="You don't have to struggle alone, you've " />
@@ -47,7 +47,7 @@ export const AboutContent = () => {
       <div className='container flex md:flex-col'>
         <div className='left w-1/3 md:w-full mr-8 md:mr-0 relative'>
           <img src={aboutImg} alt='aboutImg' className=' rounded-xl' />
-          <img src={aboutImgBanner} alt='aboutImg' className='rounded-xl absolute -bottom-14 -left-24 h-56 md:left-80' />
+          <img src={aboutImgBanner} alt='aboutImg' className='rounded-xl absolute -bottom-14 -left-24 h-56 md:hidden' />
           <div className='img-group ml-24 mt-3'>
             <img src={imgs} alt='' />
             <span className='text-[14px]'>
