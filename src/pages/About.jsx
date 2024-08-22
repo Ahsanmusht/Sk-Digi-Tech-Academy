@@ -47,7 +47,7 @@ export const AboutContent = () => {
       <div className='container flex md:flex-col'>
         <div className='left w-1/3 md:w-full mr-8 md:mr-0 relative'>
           <img src={aboutImg} alt='aboutImg' className=' rounded-xl' />
-          <img src={aboutImgBanner} alt='aboutImg' className='rounded-xl absolute -bottom-14 -left-24 h-56 md:left-80' />
+          <img src={aboutImgBanner} alt='aboutImg' className='rounded-xl absolute -bottom-14 -left-24 h-56 md:left-80 hidden' />
           <div className='img-group ml-24 mt-3'>
             <img src={imgs} alt='' />
             <span className='text-[14px]'>

@@ -15,7 +15,11 @@ const ImageSlider = () => {
       <Swiper
         breakpoints={{
           340: {
-            slidesPerView: 2,
+            slidesPerView: 1,
+            spaceBetween: 15,
+          },
+          500: {
+            slidesPerView: 1,
             spaceBetween: 15,
           },
           700: {

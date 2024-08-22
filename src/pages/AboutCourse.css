@@ -1,0 +1,10 @@
+.slider{
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (max-width:774px){
+    .slick-slide img{
+        display: none;
+    }
+}

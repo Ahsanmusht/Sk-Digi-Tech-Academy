@@ -9,6 +9,7 @@ import { Courses } from "./Courses"
 import { Instructor } from "./Instructor"
 import { Blog } from "./Blog"
 import  ImageSlider  from "./ImageSlider"
+import  AboutCourse  from "./AboutCourse"
 
 export const Home = () => {
   return (
@@ -21,6 +22,7 @@ export const Home = () => {
       <Courses />
       <ImageSlider />
       <Instructor />
+      <AboutCourse />
       <Blog />
     </>
   )
