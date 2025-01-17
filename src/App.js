@@ -5,6 +5,7 @@ import { BlogSinglePage } from "./components/common/BlogSinglePage"
 import { About } from "./pages/About"
 import { Courses } from "./pages/Courses"
 import { Blog } from "./pages/Blog"
+import { CourseDetail } from "./pages/CourseDetail"
 import { Instructor } from "./pages/Instructor"
 
 function App() {
@@ -50,6 +51,14 @@ function App() {
               <Layout>
                 <Blog />
               </Layout>
+            }
+          />
+          <Route
+            path='/course-details/:id'
+            element={
+              <Layout>
+                <CourseDetail />
+               </Layout>
             }
           />
           <Route

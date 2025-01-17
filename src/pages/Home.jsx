@@ -8,6 +8,7 @@ import { About } from "./About"
 import { Courses } from "./Courses"
 import { Instructor } from "./Instructor"
 import { Blog } from "./Blog"
+import ImageSlider from "./ImageSlider"
 
 export const Home = () => {
   return (
@@ -18,6 +19,7 @@ export const Home = () => {
       <br />
       <br />
       <Courses />
+      <ImageSlider />
       <Instructor />
       <Blog />
     </>
